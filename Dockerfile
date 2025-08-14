@@ -7,16 +7,27 @@ WORKDIR /app
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
-# Install dependencies
-RUN npm ci --only=production
+# Install ALL dependencies (including devDependencies for TypeScript compilation)
+RUN npm ci
 
-# Copy the rest of the application code
-COPY dist/ ./dist/
-COPY .env* ./
+# Copy source code and configuration files
+COPY src/ ./src/
+COPY tsconfig.json ./
+COPY server.js ./
+COPY .env.example ./
+
+# Build TypeScript code
+RUN npm run build
+
+# Verify dist directory was created
+RUN ls -la dist/
+
+# Remove devDependencies to reduce image size
+RUN npm ci --only=production && npm cache clean --force
 
 # Create a non-root user to run the application
-RUN addgroup -g 1001 -S nodejs
-RUN adduser -S jira-automation -u 1001
+RUN addgroup -g 1001 -S nodejs && \
+    adduser -S jira-automation -u 1001
 
 # Create directories with proper permissions
 RUN mkdir -p /app/logs && chown -R jira-automation:nodejs /app
@@ -24,8 +35,8 @@ RUN mkdir -p /app/logs && chown -R jira-automation:nodejs /app
 # Switch to the non-root user
 USER jira-automation
 
-# Expose port (if needed for health checks)
-EXPOSE 3000
+# Expose port
+EXPOSE 8080
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
@@ -34,6 +45,7 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
 # Set environment variables
 ENV NODE_ENV=production
 ENV LOG_LEVEL=info
+ENV PORT=8080
 
-# Default command - can be overridden
-CMD ["node", "dist/customer-field-automation.js", "continuous", "1440", "60000"]
+# Default command - runs the server with continuous automation
+CMD ["node", "server.js"]

@@ -9,9 +9,6 @@ README*.md
 .env.*.local
 Dockerfile*
 docker-compose*
-*.md
-src/
-tsconfig.json
 .vscode/
 .vs/
 coverage/
@@ -28,3 +25,5 @@ start-service.js
 stop-service.js
 setup.bat
 setup.sh
+dist/
+# Note: src/ and tsconfig.json are needed for Docker build
