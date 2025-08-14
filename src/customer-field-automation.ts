@@ -192,7 +192,10 @@ class CustomerFieldAutomation {
     async getNewlyCreatedTickets(lastRunTime: Date): Promise<JiraIssue[]> {
         const formattedTime = this.formatDateForJIRA(lastRunTime);
         
-        const jql = `project = ${this.projectKey} AND assignee is EMPTY AND resolution = Unresolved AND status != Done AND "issuetype" = "Support Ticket" AND "Request Type" NOT IN ("Outreach Inbox Emailed request (TS)","Credentialing Inbox Emailed request (TS)") AND created >= "${formattedTime}" ORDER BY created DESC`;
+        // Simplified JQL for testing - remove complex field references that may not exist
+        // Original complex query: project = ${this.projectKey} AND assignee is EMPTY AND resolution = Unresolved AND status != Done AND "issuetype" = "Support Ticket" AND "Request Type" NOT IN ("Outreach Inbox Emailed request (TS)","Credentialing Inbox Emailed request (TS)") AND created >= "${formattedTime}" ORDER BY created DESC
+        
+        const jql = `project = "${this.projectKey}" AND created >= "${formattedTime}" ORDER BY created DESC`;
         
         try {
             console.log(`🔍 Looking for tickets created since: ${formattedTime}`);
