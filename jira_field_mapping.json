@@ -1,0 +1,4112 @@
+{
+  "customfield_10070": {
+    "name": "Last working day",
+    "key": "customfield_10070",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Last working day[Date]",
+      "Last working day",
+      "cf[10070]"
+    ]
+  },
+  "customfield_10071": {
+    "name": "Resignation date",
+    "key": "customfield_10071",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10071]",
+      "Resignation date[Date]",
+      "Resignation date"
+    ]
+  },
+  "statusCategory": {
+    "name": "Status Category",
+    "key": "statusCategory",
+    "custom": false,
+    "type": "statusCategory",
+    "searchable": true,
+    "clauseNames": [
+      "statusCategory"
+    ]
+  },
+  "customfield_11046": {
+    "name": "[CHART] Time in Status",
+    "key": "customfield_11046",
+    "custom": true,
+    "type": "any",
+    "searchable": true,
+    "clauseNames": [
+      "[CHART] Time in Status[Time in Status]",
+      "cf[11046]",
+      "[CHART] Time in Status"
+    ]
+  },
+  "customfield_12136": {
+    "name": "Expected Outcome/Behavior",
+    "key": "customfield_12136",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12136]",
+      "Expected Outcome/Behavior[Paragraph]",
+      "Expected Outcome/Behavior"
+    ]
+  },
+  "parent": {
+    "name": "Parent",
+    "key": "parent",
+    "custom": false,
+    "type": "unknown",
+    "searchable": true,
+    "clauseNames": [
+      "parent"
+    ]
+  },
+  "resolution": {
+    "name": "Resolution",
+    "key": "resolution",
+    "custom": false,
+    "type": "resolution",
+    "searchable": true,
+    "clauseNames": [
+      "resolution"
+    ]
+  },
+  "customfield_10079": {
+    "name": "New Title & Department",
+    "key": "customfield_10079",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "New Title & Department[Short text]",
+      "cf[10079]",
+      "New Title & Department"
+    ]
+  },
+  "customfield_12135": {
+    "name": "IR Environment",
+    "key": "customfield_12135",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "IR Environment[Checkboxes]",
+      "cf[12135]",
+      "IR Environment"
+    ]
+  },
+  "customfield_11047": {
+    "name": "Attachment count",
+    "key": "jql-extensions__attachments-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11047]",
+      "Attachment count"
+    ]
+  },
+  "customfield_11048": {
+    "name": "Comment count",
+    "key": "jql-extensions__comments-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11048]",
+      "Comment count"
+    ]
+  },
+  "customfield_11049": {
+    "name": "Subtask count",
+    "key": "jql-extensions__subtasks-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11049]",
+      "Subtask count"
+    ]
+  },
+  "customfield_11838": {
+    "name": "Status",
+    "key": "time-in-status-report__b0170917-f7f8-4bdf-a65b-5cd60f5974ab",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11838]"
+    ]
+  },
+  "lastViewed": {
+    "name": "Last Viewed",
+    "key": "lastViewed",
+    "custom": false,
+    "type": "datetime",
+    "searchable": false,
+    "clauseNames": [
+      "lastViewed"
+    ]
+  },
+  "customfield_10060": {
+    "name": "Time to resolution",
+    "key": "customfield_10060",
+    "custom": true,
+    "type": "sd-servicelevelagreement",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10060]",
+      "Time to resolution"
+    ]
+  },
+  "customfield_10061": {
+    "name": "Time to close after resolution",
+    "key": "customfield_10061",
+    "custom": true,
+    "type": "sd-servicelevelagreement",
+    "searchable": true,
+    "clauseNames": [
+      "Time to close after resolution",
+      "cf[10061]"
+    ]
+  },
+  "customfield_10062": {
+    "name": "Time to review normal change",
+    "key": "customfield_10062",
+    "custom": true,
+    "type": "sd-servicelevelagreement",
+    "searchable": true,
+    "clauseNames": [
+      "Time to review normal change",
+      "cf[10062]"
+    ]
+  },
+  "customfield_10063": {
+    "name": "Product categorization",
+    "key": "customfield_10063",
+    "custom": true,
+    "type": "option-with-child",
+    "searchable": true,
+    "clauseNames": [
+      "Product categorization[Select List (cascading)]",
+      "Product categorization",
+      "cf[10063]"
+    ]
+  },
+  "customfield_10064": {
+    "name": "Operational categorization",
+    "key": "customfield_10064",
+    "custom": true,
+    "type": "option-with-child",
+    "searchable": true,
+    "clauseNames": [
+      "Operational categorization[Select List (cascading)]",
+      "cf[10064]",
+      "Operational categorization"
+    ]
+  },
+  "customfield_10065": {
+    "name": "Start Date",
+    "key": "customfield_10065",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Start Date[Date]",
+      "cf[10065]",
+      "Start Date"
+    ]
+  },
+  "customfield_10066": {
+    "name": "Employee location",
+    "key": "customfield_10066",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Employee location[Short text]",
+      "cf[10066]",
+      "Employee location"
+    ]
+  },
+  "customfield_10980": {
+    "name": "Request Date-SC",
+    "key": "customfield_10980",
+    "custom": true,
+    "type": "any",
+    "searchable": true,
+    "clauseNames": [
+      "Request Date-SC",
+      "cf[10980]",
+      "Request Date-SC[Last public comment date]"
+    ]
+  },
+  "customfield_10067": {
+    "name": "Employment type",
+    "key": "customfield_10067",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Employment type",
+      "cf[10067]",
+      "Employment type[Dropdown]"
+    ]
+  },
+  "customfield_10068": {
+    "name": "Job title",
+    "key": "customfield_10068",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10068]",
+      "Job title",
+      "Job title[Short text]"
+    ]
+  },
+  "customfield_12003": {
+    "name": "Outreach Classification",
+    "key": "customfield_12003",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Outreach Classification",
+      "cf[12003]",
+      "Outreach Classification[Select List (multiple choices)]"
+    ]
+  },
+  "customfield_10069": {
+    "name": "Manager",
+    "key": "customfield_10069",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Manager",
+      "Manager[User Picker (multiple users)]",
+      "cf[10069]"
+    ]
+  },
+  "labels": {
+    "name": "Labels",
+    "key": "labels",
+    "custom": false,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "labels"
+    ]
+  },
+  "aggregatetimeoriginalestimate": {
+    "name": "Σ Original Estimate",
+    "key": "aggregatetimeoriginalestimate",
+    "custom": false,
+    "type": "number",
+    "searchable": false,
+    "clauseNames": []
+  },
+  "customfield_10617": {
+    "name": "Type of Request",
+    "key": "customfield_10617",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Type of Request",
+      "Type of Request[Dropdown]",
+      "cf[10617]"
+    ]
+  },
+  "issuelinks": {
+    "name": "Linked Issues",
+    "key": "issuelinks",
+    "custom": false,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "issueLink",
+      "workItemLink"
+    ]
+  },
+  "assignee": {
+    "name": "Assignee",
+    "key": "assignee",
+    "custom": false,
+    "type": "user",
+    "searchable": true,
+    "clauseNames": [
+      "assignee"
+    ]
+  },
+  "components": {
+    "name": "Components",
+    "key": "components",
+    "custom": false,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "component"
+    ]
+  },
+  "customfield_10050": {
+    "name": "Planned end",
+    "key": "customfield_10050",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Planned end",
+      "Planned end[Time stamp]",
+      "cf[10050]"
+    ]
+  },
+  "customfield_10051": {
+    "name": "Implementation plan",
+    "key": "customfield_10051",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Implementation plan[Paragraph]",
+      "Implementation plan",
+      "cf[10051]"
+    ]
+  },
+  "customfield_11020": {
+    "name": "Steps_IN_blockedbyclient",
+    "key": "customfield_11020",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_IN_blockedbyclient[Time stamp]",
+      "Steps_IN_blockedbyclient",
+      "cf[11020]"
+    ]
+  },
+  "customfield_10052": {
+    "name": "Backout plan",
+    "key": "customfield_10052",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Backout plan",
+      "cf[10052]",
+      "Backout plan[Paragraph]"
+    ]
+  },
+  "customfield_10053": {
+    "name": "Test plan",
+    "key": "customfield_10053",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10053]",
+      "Test plan",
+      "Test plan[Paragraph]"
+    ]
+  },
+  "customfield_11021": {
+    "name": "Steps_OUT_blockedbyclient",
+    "key": "customfield_11021",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_OUT_blockedbyclient[Time stamp]",
+      "cf[11021]",
+      "Steps_OUT_blockedbyclient"
+    ]
+  },
+  "customfield_10054": {
+    "name": "Source",
+    "key": "customfield_10054",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Source[Dropdown]",
+      "Source",
+      "cf[10054]"
+    ]
+  },
+  "customfield_11022": {
+    "name": "Steps_IN_completedwaitingreview",
+    "key": "customfield_11022",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_IN_completedwaitingreview[Time stamp]",
+      "cf[11022]",
+      "Steps_IN_completedwaitingreview"
+    ]
+  },
+  "customfield_11023": {
+    "name": "Completed, waiting review by",
+    "key": "customfield_11023",
+    "custom": true,
+    "type": "user",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11023]",
+      "Completed, waiting review by",
+      "Completed, waiting review by[User Picker (single user)]"
+    ]
+  },
+  "customfield_10055": {
+    "name": "Investigation reason",
+    "key": "customfield_10055",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Investigation reason",
+      "Investigation reason[Dropdown]",
+      "cf[10055]"
+    ]
+  },
+  "customfield_10056": {
+    "name": "Root cause",
+    "key": "customfield_10056",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Root cause[Paragraph]",
+      "Root cause",
+      "cf[10056]"
+    ]
+  },
+  "customfield_11024": {
+    "name": "Done By",
+    "key": "customfield_11024",
+    "custom": true,
+    "type": "user",
+    "searchable": true,
+    "clauseNames": [
+      "Done By[User Picker (single user)]",
+      "cf[11024]",
+      "Done By"
+    ]
+  },
+  "customfield_11145": {
+    "name": "Steps_IN_blockedbyprovider",
+    "key": "customfield_11145",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_IN_blockedbyprovider[Time stamp]",
+      "Steps_IN_blockedbyprovider",
+      "cf[11145]"
+    ]
+  },
+  "customfield_11146": {
+    "name": "Steps_OUT_blockedbyprovider",
+    "key": "customfield_11146",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_OUT_blockedbyprovider[Time stamp]",
+      "cf[11146]",
+      "Steps_OUT_blockedbyprovider"
+    ]
+  },
+  "customfield_12234": {
+    "name": "IR Client Contact",
+    "key": "customfield_12234",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "IR Client Contact[Paragraph]",
+      "cf[12234]",
+      "IR Client Contact"
+    ]
+  },
+  "customfield_10057": {
+    "name": "Workaround",
+    "key": "customfield_10057",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10057]",
+      "Workaround",
+      "Workaround[Paragraph]"
+    ]
+  },
+  "customfield_11025": {
+    "name": "Client On Hold By",
+    "key": "customfield_11025",
+    "custom": true,
+    "type": "user",
+    "searchable": true,
+    "clauseNames": [
+      "Client On Hold By[User Picker (single user)]",
+      "Client On Hold By",
+      "cf[11025]"
+    ]
+  },
+  "customfield_10058": {
+    "name": "Time to resolution",
+    "key": "customfield_10058",
+    "custom": true,
+    "type": "sd-servicelevelagreement",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10058]",
+      "Time to resolution"
+    ]
+  },
+  "customfield_10059": {
+    "name": "Time to first response",
+    "key": "customfield_10059",
+    "custom": true,
+    "type": "sd-servicelevelagreement",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10059]",
+      "Time to first response"
+    ]
+  },
+  "customfield_11017": {
+    "name": "Steps_OUT_blockedgeneral",
+    "key": "customfield_11017",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_OUT_blockedgeneral",
+      "Steps_OUT_blockedgeneral[Time stamp]",
+      "cf[11017]"
+    ]
+  },
+  "customfield_10049": {
+    "name": "Planned start",
+    "key": "customfield_10049",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10049]",
+      "Planned start[Time stamp]",
+      "Planned start"
+    ]
+  },
+  "customfield_11018": {
+    "name": "Steps_IN_blockedbyhp",
+    "key": "customfield_11018",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_IN_blockedbyhp[Time stamp]",
+      "cf[11018]",
+      "Steps_IN_blockedbyhp"
+    ]
+  },
+  "customfield_11019": {
+    "name": "Steps_OUT_blockedbyhp",
+    "key": "customfield_11019",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11019]",
+      "Steps_OUT_blockedbyhp",
+      "Steps_OUT_blockedbyhp[Time stamp]"
+    ]
+  },
+  "customfield_11937": {
+    "name": "Laptop Serial Number",
+    "key": "customfield_11937",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Laptop Serial Number[Short text]",
+      "cf[11937]",
+      "Laptop Serial Number"
+    ]
+  },
+  "customfield_10848": {
+    "name": "Grooming Status",
+    "key": "customfield_10848",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10848]",
+      "Grooming Status",
+      "Grooming Status[Dropdown]"
+    ]
+  },
+  "subtasks": {
+    "name": "Sub-tasks",
+    "key": "subtasks",
+    "custom": false,
+    "type": "array",
+    "searchable": false,
+    "clauseNames": [
+      "subtasks"
+    ]
+  },
+  "customfield_10161": {
+    "name": "External Doc",
+    "key": "customfield_10161",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "External Doc",
+      "External Doc[URL Field]",
+      "cf[10161]"
+    ]
+  },
+  "customfield_10040": {
+    "name": "Work category",
+    "key": "customfield_10040",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Work category",
+      "cf[10040]"
+    ]
+  },
+  "customfield_10041": {
+    "name": "Approvals",
+    "key": "customfield_10041",
+    "custom": true,
+    "type": "sd-approvals",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10041]",
+      "Approvals",
+      "Approvals[Approvals]"
+    ]
+  },
+  "customfield_10162": {
+    "name": "Team",
+    "key": "customfield_10162",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10162]",
+      "Team",
+      "Team[Checkboxes]"
+    ]
+  },
+  "customfield_10042": {
+    "name": "Urgency Levels",
+    "key": "customfield_10042",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Urgency Levels[Dropdown]",
+      "cf[10042]",
+      "Urgency Levels"
+    ]
+  },
+  "reporter": {
+    "name": "Reporter",
+    "key": "reporter",
+    "custom": false,
+    "type": "user",
+    "searchable": true,
+    "clauseNames": [
+      "reporter"
+    ]
+  },
+  "customfield_10164": {
+    "name": "Design",
+    "key": "customfield_10164",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Design",
+      "cf[10164]"
+    ]
+  },
+  "customfield_10043": {
+    "name": "Pending reason",
+    "key": "customfield_10043",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Pending reason",
+      "Pending reason[Dropdown]",
+      "cf[10043]"
+    ]
+  },
+  "customfield_10044": {
+    "name": "Approver groups",
+    "key": "customfield_10044",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Approver groups[Group Picker (multiple groups)]",
+      "Approver groups",
+      "cf[10044]"
+    ]
+  },
+  "customfield_10165": {
+    "name": "Pod",
+    "key": "customfield_10165",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Pod",
+      "cf[10165]",
+      "Pod[Dropdown]"
+    ]
+  },
+  "customfield_10287": {
+    "name": "Client Support Task Type",
+    "key": "customfield_10287",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10287]",
+      "Client Support Task Type",
+      "Client Support Task Type[Dropdown]"
+    ]
+  },
+  "customfield_10166": {
+    "name": "Support Category",
+    "key": "customfield_10166",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Support Category[Dropdown]",
+      "cf[10166]",
+      "Support Category"
+    ]
+  },
+  "customfield_10045": {
+    "name": "Affected hardware",
+    "key": "customfield_10045",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10045]",
+      "Affected hardware[Short text]",
+      "Affected hardware"
+    ]
+  },
+  "customfield_10288": {
+    "name": "Client Support Escalation Field",
+    "key": "customfield_10288",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Client Support Escalation Field",
+      "cf[10288]",
+      "Client Support Escalation Field[Dropdown]"
+    ]
+  },
+  "customfield_12102": {
+    "name": "Quarter",
+    "key": "customfield_12102",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Quarter[Checkboxes]",
+      "Quarter",
+      "cf[12102]"
+    ]
+  },
+  "customfield_11014": {
+    "name": "Steps_IN_Inprogress",
+    "key": "customfield_11014",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_IN_Inprogress[Time stamp]",
+      "Steps_IN_Inprogress",
+      "cf[11014]"
+    ]
+  },
+  "customfield_10046": {
+    "name": "Major incident",
+    "key": "customfield_10046",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10046]",
+      "Major incident"
+    ]
+  },
+  "customfield_10167": {
+    "name": "Content type",
+    "key": "customfield_10167",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10167]",
+      "Content type",
+      "Content type[Short text]"
+    ]
+  },
+  "customfield_11015": {
+    "name": "Steps_IN_requested",
+    "key": "customfield_11015",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_IN_requested[Time stamp]",
+      "cf[11015]",
+      "Steps_IN_requested"
+    ]
+  },
+  "customfield_10047": {
+    "name": "Responders",
+    "key": "customfield_10047",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": []
+  },
+  "customfield_10168": {
+    "name": "Publication date",
+    "key": "customfield_10168",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Publication date[Date]",
+      "Publication date",
+      "cf[10168]"
+    ]
+  },
+  "customfield_11016": {
+    "name": "Steps_IN_blockedgeneral",
+    "key": "customfield_11016",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Steps_IN_blockedgeneral[Time stamp]",
+      "cf[11016]",
+      "Steps_IN_blockedgeneral"
+    ]
+  },
+  "customfield_10169": {
+    "name": "Vulnerability",
+    "key": "customfield_10169",
+    "custom": true,
+    "type": "any",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10169]",
+      "Vulnerability"
+    ]
+  },
+  "customfield_10048": {
+    "name": "Severity",
+    "key": "customfield_10048",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10048]",
+      "Severity",
+      "Severity[Dropdown]"
+    ]
+  },
+  "customfield_10159": {
+    "name": "Idea short description",
+    "key": "customfield_10159",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Idea short description",
+      "cf[10159]",
+      "Idea short description[Short text]"
+    ]
+  },
+  "customfield_10038": {
+    "name": "Request language",
+    "key": "customfield_10038",
+    "custom": true,
+    "type": "sd-request-lang",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10038]",
+      "Request language"
+    ]
+  },
+  "customfield_10039": {
+    "name": "Affected services",
+    "key": "customfield_10039",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10039]",
+      "Affected services"
+    ]
+  },
+  "customfield_11805": {
+    "name": "High Level Design link",
+    "key": "customfield_11805",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11805]",
+      "High Level Design link",
+      "High Level Design link[URL Field]"
+    ]
+  },
+  "customfield_10716": {
+    "name": "Provider NPI",
+    "key": "customfield_10716",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Provider NPI",
+      "Provider NPI[Short text]",
+      "cf[10716]"
+    ]
+  },
+  "progress": {
+    "name": "Progress",
+    "key": "progress",
+    "custom": false,
+    "type": "progress",
+    "searchable": false,
+    "clauseNames": [
+      "progress"
+    ]
+  },
+  "customfield_11806": {
+    "name": "UI Design link",
+    "key": "customfield_11806",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "UI Design link[URL Field]",
+      "UI Design link",
+      "cf[11806]"
+    ]
+  },
+  "votes": {
+    "name": "Votes",
+    "key": "votes",
+    "custom": false,
+    "type": "votes",
+    "searchable": false,
+    "clauseNames": [
+      "votes"
+    ]
+  },
+  "worklog": {
+    "name": "Log Work",
+    "key": "worklog",
+    "custom": false,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": []
+  },
+  "issuetype": {
+    "name": "Issue Type",
+    "key": "issuetype",
+    "custom": false,
+    "type": "issuetype",
+    "searchable": true,
+    "clauseNames": [
+      "issuetype",
+      "type"
+    ]
+  },
+  "customfield_10150": {
+    "name": "Impact score",
+    "key": "customfield_10150",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Impact score",
+      "Impact score[Custom formula]",
+      "cf[10150]"
+    ]
+  },
+  "customfield_10030": {
+    "name": "Open forms",
+    "key": "customfield_10030",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10030]",
+      "Open forms"
+    ]
+  },
+  "project": {
+    "name": "Project",
+    "key": "project",
+    "custom": false,
+    "type": "project",
+    "searchable": true,
+    "clauseNames": [
+      "project"
+    ]
+  },
+  "customfield_10031": {
+    "name": "Submitted forms",
+    "key": "customfield_10031",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10031]",
+      "Submitted forms"
+    ]
+  },
+  "customfield_10152": {
+    "name": "High Level Tech Design ready",
+    "key": "customfield_10152",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10152]",
+      "High Level Tech Design ready[Checkbox]",
+      "High Level Tech Design ready"
+    ]
+  },
+  "customfield_10032": {
+    "name": "Locked forms",
+    "key": "customfield_10032",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10032]",
+      "Locked forms"
+    ]
+  },
+  "customfield_10153": {
+    "name": "UI Designs ready",
+    "key": "customfield_10153",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "UI Designs ready",
+      "UI Designs ready[Checkbox]",
+      "cf[10153]"
+    ]
+  },
+  "customfield_10154": {
+    "name": "Project start",
+    "key": "customfield_10154",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Project start[Interval]",
+      "cf[10154]",
+      "Project start"
+    ]
+  },
+  "customfield_10033": {
+    "name": "Total forms",
+    "key": "customfield_10033",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10033]",
+      "Total forms"
+    ]
+  },
+  "customfield_11244": {
+    "name": "Product Pulse Update",
+    "key": "customfield_11244",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Product Pulse Update",
+      "Product Pulse Update[Short text]",
+      "cf[11244]"
+    ]
+  },
+  "customfield_10155": {
+    "name": "Project target",
+    "key": "customfield_10155",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Project target[Interval]",
+      "cf[10155]",
+      "Project target"
+    ]
+  },
+  "customfield_10035": {
+    "name": "Category",
+    "key": "customfield_10035",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10035]",
+      "Category[Category]"
+    ]
+  },
+  "customfield_10036": {
+    "name": "Satisfaction",
+    "key": "customfield_10036",
+    "custom": true,
+    "type": "sd-feedback",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10036]",
+      "Satisfaction"
+    ]
+  },
+  "customfield_10158": {
+    "name": "Effort",
+    "key": "customfield_10158",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Effort[Rating]",
+      "cf[10158]",
+      "Effort"
+    ]
+  },
+  "customfield_10037": {
+    "name": "Satisfaction date",
+    "key": "customfield_10037",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Satisfaction date",
+      "cf[10037]"
+    ]
+  },
+  "customfield_10149": {
+    "name": "Product Areas",
+    "key": "customfield_10149",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10149]",
+      "Product Areas",
+      "Product Areas[Checkboxes]"
+    ]
+  },
+  "customfield_10029": {
+    "name": "Request participants",
+    "key": "customfield_10029",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Request participants",
+      "cf[10029]"
+    ]
+  },
+  "resolutiondate": {
+    "name": "Resolved",
+    "key": "resolutiondate",
+    "custom": false,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "resolutiondate",
+      "resolved"
+    ]
+  },
+  "customfield_10947": {
+    "name": "Root Cause Description",
+    "key": "customfield_10947",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Root Cause Description[Paragraph]",
+      "cf[10947]",
+      "Root Cause Description"
+    ]
+  },
+  "watches": {
+    "name": "Watchers",
+    "key": "watches",
+    "custom": false,
+    "type": "watches",
+    "searchable": false,
+    "clauseNames": [
+      "watchers"
+    ]
+  },
+  "customfield_10020": {
+    "name": "Sprint",
+    "key": "customfield_10020",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10020]",
+      "Sprint"
+    ]
+  },
+  "customfield_10021": {
+    "name": "Flagged",
+    "key": "customfield_10021",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Flagged",
+      "Flagged[Checkboxes]",
+      "cf[10021]"
+    ]
+  },
+  "customfield_10022": {
+    "name": "Target start",
+    "key": "customfield_10022",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Target start",
+      "cf[10022]"
+    ]
+  },
+  "customfield_10023": {
+    "name": "Target end",
+    "key": "customfield_10023",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10023]",
+      "Target end"
+    ]
+  },
+  "customfield_11112": {
+    "name": "Participants",
+    "key": "customfield_11112",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Participants[People]",
+      "cf[11112]",
+      "Participants"
+    ]
+  },
+  "customfield_10144": {
+    "name": "Company Key Result",
+    "key": "customfield_10144",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10144]",
+      "Company Key Result[Checkboxes]",
+      "Company Key Result"
+    ]
+  },
+  "customfield_10386": {
+    "name": "Testing By",
+    "key": "customfield_10386",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10386]",
+      "Testing By[User Picker (multiple users)]",
+      "Testing By"
+    ]
+  },
+  "customfield_12201": {
+    "name": "Focus Areas",
+    "key": "customfield_12201",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": []
+  },
+  "customfield_10024": {
+    "name": "[CHART] Date of First Response",
+    "key": "customfield_10024",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10024]",
+      "[CHART] Date of First Response[Date of first response]",
+      "[CHART] Date of First Response"
+    ]
+  },
+  "customfield_10026": {
+    "name": "Story Points",
+    "key": "customfield_10026",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Story Points[Number]",
+      "cf[10026]",
+      "Story Points"
+    ]
+  },
+  "customfield_10016": {
+    "name": "Story point estimate",
+    "key": "customfield_10016",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10016]",
+      "Story point estimate"
+    ]
+  },
+  "customfield_10137": {
+    "name": "Deleted Date",
+    "key": "customfield_10137",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Deleted Date[Date]",
+      "cf[10137]",
+      "Deleted Date"
+    ]
+  },
+  "customfield_10017": {
+    "name": "Issue color",
+    "key": "customfield_10017",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10017]",
+      "Issue color"
+    ]
+  },
+  "customfield_10018": {
+    "name": "Parent Link",
+    "key": "customfield_10018",
+    "custom": true,
+    "type": "any",
+    "searchable": true,
+    "clauseNames": [
+      "Parent Link",
+      "cf[10018]"
+    ]
+  },
+  "customfield_10019": {
+    "name": "Rank",
+    "key": "customfield_10019",
+    "custom": true,
+    "type": "any",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10019]",
+      "Rank"
+    ]
+  },
+  "customfield_11904": {
+    "name": "Certify Workflow Adherence",
+    "key": "customfield_11904",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11904]",
+      "Certify Workflow Adherence[Checkboxes]",
+      "Certify Workflow Adherence"
+    ]
+  },
+  "customfield_11906": {
+    "name": "Certify Error or Client Error?",
+    "key": "customfield_11906",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Certify Error or Client Error?[Checkboxes]",
+      "cf[11906]",
+      "Certify Error or Client Error?"
+    ]
+  },
+  "customfield_11905": {
+    "name": "Certify Work Workflow Adherence (Details)",
+    "key": "customfield_11905",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Certify Work Workflow Adherence (Details)",
+      "Certify Work Workflow Adherence (Details)[Paragraph]",
+      "cf[11905]"
+    ]
+  },
+  "updated": {
+    "name": "Updated",
+    "key": "updated",
+    "custom": false,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "updated",
+      "updatedDate"
+    ]
+  },
+  "timeoriginalestimate": {
+    "name": "Original estimate",
+    "key": "timeoriginalestimate",
+    "custom": false,
+    "type": "number",
+    "searchable": false,
+    "clauseNames": [
+      "originalEstimate",
+      "timeoriginalestimate"
+    ]
+  },
+  "customfield_10250": {
+    "name": "SF Designated Priority",
+    "key": "customfield_10250",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10250]",
+      "SF Designated Priority[Short text]",
+      "SF Designated Priority"
+    ]
+  },
+  "description": {
+    "name": "Description",
+    "key": "description",
+    "custom": false,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "description"
+    ]
+  },
+  "customfield_10130": {
+    "name": "Owner",
+    "key": "customfield_10130",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Owner[People]",
+      "cf[10130]",
+      "Owner"
+    ]
+  },
+  "customfield_10251": {
+    "name": "Sentiment",
+    "key": "customfield_10251",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10251]",
+      "Sentiment"
+    ]
+  },
+  "customfield_10252": {
+    "name": "SF Date Opened",
+    "key": "customfield_10252",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "SF Date Opened[Time stamp]",
+      "cf[10252]",
+      "SF Date Opened"
+    ]
+  },
+  "customfield_10010": {
+    "name": "Request Type",
+    "key": "customfield_10010",
+    "custom": true,
+    "type": "sd-customerrequesttype",
+    "searchable": true,
+    "clauseNames": [
+      "Request Type",
+      "cf[10010]"
+    ]
+  },
+  "customfield_10131": {
+    "name": "Created Date",
+    "key": "customfield_10131",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Created Date",
+      "Created Date[Date]",
+      "cf[10131]"
+    ]
+  },
+  "customfield_10011": {
+    "name": "Epic Name",
+    "key": "customfield_10011",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Epic Name",
+      "cf[10011]"
+    ]
+  },
+  "customfield_10253": {
+    "name": "Goals",
+    "key": "customfield_10253",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Goals",
+      "Goals[Goals]",
+      "cf[10253]"
+    ]
+  },
+  "customfield_10254": {
+    "name": "Gmail Link to Follow Up",
+    "key": "customfield_10254",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Gmail Link to Follow Up[URL Field]",
+      "cf[10254]",
+      "Gmail Link to Follow Up"
+    ]
+  },
+  "customfield_10012": {
+    "name": "Epic Status",
+    "key": "customfield_10012",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Epic Status",
+      "cf[10012]"
+    ]
+  },
+  "customfield_10133": {
+    "name": "Reviewer",
+    "key": "customfield_10133",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10133]",
+      "Reviewer",
+      "Reviewer[People]"
+    ]
+  },
+  "customfield_11344": {
+    "name": "Provider Type",
+    "key": "customfield_11344",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Provider Type",
+      "Provider Type[Select List (multiple choices)]",
+      "cf[11344]"
+    ]
+  },
+  "customfield_10013": {
+    "name": "Epic Color",
+    "key": "customfield_10013",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10013]",
+      "Epic Color"
+    ]
+  },
+  "customfield_10134": {
+    "name": "Branch Deletion",
+    "key": "customfield_10134",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10134]",
+      "Branch Deletion[Checkboxes]",
+      "Branch Deletion"
+    ]
+  },
+  "customfield_11343": {
+    "name": "Provider Type ",
+    "key": "customfield_11343",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11343]",
+      "Provider Type [Checkboxes]",
+      "Provider Type "
+    ]
+  },
+  "customfield_10014": {
+    "name": "Epic Link",
+    "key": "customfield_10014",
+    "custom": true,
+    "type": "any",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10014]",
+      "Epic Link"
+    ]
+  },
+  "customfield_10135": {
+    "name": "Development Status",
+    "key": "customfield_10135",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Development Status[Dropdown]",
+      "Development Status",
+      "cf[10135]"
+    ]
+  },
+  "timetracking": {
+    "name": "Time tracking",
+    "key": "timetracking",
+    "custom": false,
+    "type": "timetracking",
+    "searchable": true,
+    "clauseNames": []
+  },
+  "customfield_10015": {
+    "name": "Start date",
+    "key": "customfield_10015",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10015]",
+      "Start date",
+      "Start date[Date]"
+    ]
+  },
+  "customfield_10136": {
+    "name": "Merged Date",
+    "key": "customfield_10136",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Merged Date",
+      "cf[10136]",
+      "Merged Date[Date]"
+    ]
+  },
+  "customfield_10247": {
+    "name": "SF Case Reason",
+    "key": "customfield_10247",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10247]",
+      "SF Case Reason",
+      "SF Case Reason[Short text]"
+    ]
+  },
+  "customfield_10005": {
+    "name": "Change type",
+    "key": "customfield_10005",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Change type[Dropdown]",
+      "cf[10005]",
+      "Change type"
+    ]
+  },
+  "customfield_10126": {
+    "name": "Client",
+    "key": "customfield_10126",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Client[Short text]",
+      "Client",
+      "cf[10126]"
+    ]
+  },
+  "customfield_10248": {
+    "name": "SF Case Origin",
+    "key": "customfield_10248",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10248]",
+      "SF Case Origin[Short text]",
+      "SF Case Origin"
+    ]
+  },
+  "customfield_10006": {
+    "name": "Change risk",
+    "key": "customfield_10006",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10006]",
+      "Change risk",
+      "Change risk[Dropdown]"
+    ]
+  },
+  "customfield_10127": {
+    "name": "Airtable Record ID",
+    "key": "customfield_10127",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10127]",
+      "Airtable Record ID[Short text]",
+      "Airtable Record ID"
+    ]
+  },
+  "customfield_10249": {
+    "name": "Ops Team Designation",
+    "key": "customfield_10249",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Ops Team Designation[Dropdown]",
+      "cf[10249]",
+      "Ops Team Designation"
+    ]
+  },
+  "customfield_10007": {
+    "name": "Change reason",
+    "key": "customfield_10007",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Change reason",
+      "Change reason[Dropdown]",
+      "cf[10007]"
+    ]
+  },
+  "customfield_10128": {
+    "name": "Branch Status",
+    "key": "customfield_10128",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Branch Status",
+      "Branch Status[Dropdown]",
+      "cf[10128]"
+    ]
+  },
+  "customfield_10008": {
+    "name": "Actual start",
+    "key": "customfield_10008",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Actual start[Time stamp]",
+      "cf[10008]",
+      "Actual start"
+    ]
+  },
+  "customfield_10129": {
+    "name": "Branch Name",
+    "key": "customfield_10129",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Branch Name[Short text]",
+      "cf[10129]",
+      "Branch Name"
+    ]
+  },
+  "customfield_10009": {
+    "name": "Actual end",
+    "key": "customfield_10009",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Actual end[Time stamp]",
+      "cf[10009]",
+      "Actual end"
+    ]
+  },
+  "summary": {
+    "name": "Summary",
+    "key": "summary",
+    "custom": false,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "summary"
+    ]
+  },
+  "customfield_11450": {
+    "name": "Merged to Branch",
+    "key": "customfield_11450",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Merged to Branch[URL Field]",
+      "cf[11450]",
+      "Merged to Branch"
+    ]
+  },
+  "customfield_10240": {
+    "name": "Ops Ticket Escalation",
+    "key": "customfield_10240",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Ops Ticket Escalation",
+      "cf[10240]",
+      "Ops Ticket Escalation[Dropdown]"
+    ]
+  },
+  "customfield_10241": {
+    "name": "SF Account Name",
+    "key": "customfield_10241",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "SF Account Name[Short text]",
+      "cf[10241]",
+      "SF Account Name"
+    ]
+  },
+  "customfield_10121": {
+    "name": "Release Note Description",
+    "key": "customfield_10121",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Release Note Description[Paragraph]",
+      "cf[10121]",
+      "Release Note Description"
+    ]
+  },
+  "customfield_10000": {
+    "name": "Development",
+    "key": "customfield_10000",
+    "custom": true,
+    "type": "any",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10000]",
+      "development"
+    ]
+  },
+  "customfield_10242": {
+    "name": "Task Type",
+    "key": "customfield_10242",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Task Type",
+      "Task Type[Dropdown]",
+      "cf[10242]"
+    ]
+  },
+  "customfield_10485": {
+    "name": "Customer(s)",
+    "key": "customfield_10485",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Customer(s)[Select List (multiple choices)]",
+      "Customer(s)",
+      "cf[10485]"
+    ]
+  },
+  "customfield_10243": {
+    "name": "Application or Client Phase",
+    "key": "customfield_10243",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10243]",
+      "Application or Client Phase[Dropdown]",
+      "Application or Client Phase"
+    ]
+  },
+  "customfield_10122": {
+    "name": "Due Date",
+    "key": "customfield_10122",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Due Date[Date]",
+      "cf[10122]",
+      "Due Date"
+    ]
+  },
+  "customfield_11575": {
+    "name": "Preventive Action",
+    "key": "customfield_11575",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11575]",
+      "Preventive Action",
+      "Preventive Action[Checkboxes]"
+    ]
+  },
+  "customfield_10001": {
+    "name": "Team",
+    "key": "customfield_10001",
+    "custom": true,
+    "type": "team",
+    "searchable": true,
+    "clauseNames": [
+      "Team[Team]",
+      "cf[10001]",
+      "Team"
+    ]
+  },
+  "customfield_10244": {
+    "name": "Application / File / License Effort",
+    "key": "customfield_10244",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Application / File / License Effort[Dropdown]",
+      "Application / File / License Effort",
+      "cf[10244]"
+    ]
+  },
+  "customfield_10123": {
+    "name": "Due Date",
+    "key": "customfield_10123",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10123]",
+      "Due Date[Date]",
+      "Due Date"
+    ]
+  },
+  "customfield_10002": {
+    "name": "Organizations",
+    "key": "customfield_10002",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10002]",
+      "Organizations"
+    ]
+  },
+  "customfield_11574": {
+    "name": "Production Incident",
+    "key": "customfield_11574",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11574]",
+      "Production Incident",
+      "Production Incident[Checkboxes]"
+    ]
+  },
+  "customfield_11212": {
+    "name": "Refresh Month ",
+    "key": "customfield_11212",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Refresh Month ",
+      "Refresh Month [Dropdown]",
+      "cf[11212]"
+    ]
+  },
+  "customfield_11213": {
+    "name": "Provider Type ",
+    "key": "customfield_11213",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11213]",
+      "Provider Type [Short text]",
+      "Provider Type "
+    ]
+  },
+  "customfield_10003": {
+    "name": "Approvers",
+    "key": "customfield_10003",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Approvers[User Picker (multiple users)]",
+      "cf[10003]",
+      "Approvers"
+    ]
+  },
+  "customfield_10124": {
+    "name": "Grouping Labels",
+    "key": "customfield_10124",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Grouping Labels[Dropdown]",
+      "Grouping Labels",
+      "cf[10124]"
+    ]
+  },
+  "customfield_10245": {
+    "name": "SF Case Number",
+    "key": "customfield_10245",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "SF Case Number[Short text]",
+      "SF Case Number",
+      "cf[10245]"
+    ]
+  },
+  "customfield_10004": {
+    "name": "Impact",
+    "key": "customfield_10004",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Impact",
+      "cf[10004]",
+      "Impact[Dropdown]"
+    ]
+  },
+  "customfield_10125": {
+    "name": "External issue ID",
+    "key": "customfield_10125",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10125]",
+      "External issue ID",
+      "External issue ID[Short text]"
+    ]
+  },
+  "customfield_10246": {
+    "name": "SF Case Owner",
+    "key": "customfield_10246",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "SF Case Owner[Short text]",
+      "cf[10246]",
+      "SF Case Owner"
+    ]
+  },
+  "customfield_10236": {
+    "name": "Task Number",
+    "key": "customfield_10236",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10236]",
+      "Task Number[Number]",
+      "Task Number"
+    ]
+  },
+  "customfield_10115": {
+    "name": "Resolved Date and Time",
+    "key": "customfield_10115",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Resolved Date and Time[Time stamp]",
+      "cf[10115]",
+      "Resolved Date and Time"
+    ]
+  },
+  "customfield_11447": {
+    "name": "Deleted Date",
+    "key": "customfield_11447",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Deleted Date[Date]",
+      "cf[11447]",
+      "Deleted Date"
+    ]
+  },
+  "customfield_10237": {
+    "name": "Client",
+    "key": "customfield_10237",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Client",
+      "cf[10237]",
+      "Client[Dropdown]"
+    ]
+  },
+  "customfield_11446": {
+    "name": "Merge Date",
+    "key": "customfield_11446",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Merge Date[Date]",
+      "cf[11446]",
+      "Merge Date"
+    ]
+  },
+  "environment": {
+    "name": "Environment",
+    "key": "environment",
+    "custom": false,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "environment"
+    ]
+  },
+  "customfield_11449": {
+    "name": "Merged To",
+    "key": "customfield_11449",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Merged To[URL Field]",
+      "Merged To",
+      "cf[11449]"
+    ]
+  },
+  "customfield_10238": {
+    "name": "Expected Due Date",
+    "key": "customfield_10238",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Expected Due Date[Date]",
+      "cf[10238]",
+      "Expected Due Date"
+    ]
+  },
+  "customfield_11448": {
+    "name": "Developer",
+    "key": "customfield_11448",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Developer[People]",
+      "Developer",
+      "cf[11448]"
+    ]
+  },
+  "customfield_10239": {
+    "name": "Resolution Notes",
+    "key": "customfield_10239",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Resolution Notes",
+      "Resolution Notes[Paragraph]",
+      "cf[10239]"
+    ]
+  },
+  "duedate": {
+    "name": "Due date",
+    "key": "duedate",
+    "custom": false,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "due",
+      "duedate"
+    ]
+  },
+  "customfield_10914": {
+    "name": "Root Cause Catagory",
+    "key": "customfield_10914",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Root Cause Catagory",
+      "Root Cause Catagory[Dropdown]",
+      "cf[10914]"
+    ]
+  },
+  "comment": {
+    "name": "Comment",
+    "key": "comment",
+    "custom": false,
+    "type": "comments-page",
+    "searchable": true,
+    "clauseNames": [
+      "comment"
+    ]
+  },
+  "statuscategorychangedate": {
+    "name": "Status Category Changed",
+    "key": "statuscategorychangedate",
+    "custom": false,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "statusCategoryChangedDate"
+    ]
+  },
+  "fixVersions": {
+    "name": "Fix versions",
+    "key": "fixVersions",
+    "custom": false,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "fixVersion"
+    ]
+  },
+  "customfield_10353": {
+    "name": "Status",
+    "key": "customfield_10353",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10353]",
+      "Status[Dropdown]"
+    ]
+  },
+  "customfield_11443": {
+    "name": "Deleted By",
+    "key": "customfield_11443",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11443]",
+      "Deleted By[People]",
+      "Deleted By"
+    ]
+  },
+  "customfield_10111": {
+    "name": "To",
+    "key": "customfield_10111",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10111]",
+      "To[People]",
+      "To"
+    ]
+  },
+  "customfield_11442": {
+    "name": "Actual Deployment Date",
+    "key": "customfield_11442",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11442]",
+      "Actual Deployment Date",
+      "Actual Deployment Date[Date]"
+    ]
+  },
+  "customfield_10112": {
+    "name": "From",
+    "key": "customfield_10112",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "From[People]",
+      "cf[10112]",
+      "From"
+    ]
+  },
+  "customfield_10113": {
+    "name": "Communication Type",
+    "key": "customfield_10113",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Communication Type",
+      "Communication Type[Dropdown]",
+      "cf[10113]"
+    ]
+  },
+  "customfield_11445": {
+    "name": "Branch Type",
+    "key": "customfield_11445",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Branch Type[Dropdown]",
+      "Branch Type",
+      "cf[11445]"
+    ]
+  },
+  "customfield_11444": {
+    "name": "Deletion Reason",
+    "key": "customfield_11444",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Deletion Reason[Short text]",
+      "cf[11444]",
+      "Deletion Reason"
+    ]
+  },
+  "customfield_10114": {
+    "name": "Sent Date and Time",
+    "key": "customfield_10114",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Sent Date and Time",
+      "cf[10114]",
+      "Sent Date and Time[Time stamp]"
+    ]
+  },
+  "customfield_10104": {
+    "name": "Super Epic",
+    "key": "customfield_10104",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Super Epic[Dropdown]",
+      "cf[10104]",
+      "Super Epic"
+    ]
+  },
+  "customfield_10105": {
+    "name": "Priority",
+    "key": "customfield_10105",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10105]",
+      "Priority[Dropdown]"
+    ]
+  },
+  "customfield_10108": {
+    "name": "Date & Time",
+    "key": "customfield_10108",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Date & Time[Time stamp]",
+      "cf[10108]",
+      "Date & Time"
+    ]
+  },
+  "customfield_10109": {
+    "name": "Actions Taken",
+    "key": "customfield_10109",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10109]",
+      "Actions Taken[Checkboxes]",
+      "Actions Taken"
+    ]
+  },
+  "customfield_12080": {
+    "name": "Mailing address",
+    "key": "customfield_12080",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12080]",
+      "Mailing address",
+      "Mailing address[Short text]"
+    ]
+  },
+  "customfield_12082": {
+    "name": "Region",
+    "key": "customfield_12082",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Region[Dropdown]",
+      "Region",
+      "cf[12082]"
+    ]
+  },
+  "customfield_12081": {
+    "name": "Residential status",
+    "key": "customfield_12081",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Residential status",
+      "Residential status[Dropdown]",
+      "cf[12081]"
+    ]
+  },
+  "customfield_12084": {
+    "name": "Role",
+    "key": "customfield_12084",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12084]",
+      "Role",
+      "Role[Short text]"
+    ]
+  },
+  "customfield_12083": {
+    "name": "City",
+    "key": "customfield_12083",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "City[Short text]",
+      "cf[12083]",
+      "City"
+    ]
+  },
+  "customfield_12086": {
+    "name": "Department",
+    "key": "customfield_12086",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Department[Dropdown]",
+      "cf[12086]",
+      "Department"
+    ]
+  },
+  "customfield_12085": {
+    "name": "Team",
+    "key": "customfield_12085",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Team[Short text]",
+      "Team",
+      "cf[12085]"
+    ]
+  },
+  "customfield_12088": {
+    "name": "Type of Query",
+    "key": "customfield_12088",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12088]",
+      "Type of Query",
+      "Type of Query[Dropdown]"
+    ]
+  },
+  "customfield_12087": {
+    "name": "Accessibility needs",
+    "key": "customfield_12087",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12087]",
+      "Accessibility needs",
+      "Accessibility needs[Paragraph]"
+    ]
+  },
+  "customfield_12089": {
+    "name": "Contract End Date",
+    "key": "customfield_12089",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Contract End Date[Date]",
+      "Contract End Date",
+      "cf[12089]"
+    ]
+  },
+  "priority": {
+    "name": "Priority",
+    "key": "priority",
+    "custom": false,
+    "type": "priority",
+    "searchable": true,
+    "clauseNames": [
+      "priority"
+    ]
+  },
+  "customfield_11310": {
+    "name": "GTM complete",
+    "key": "customfield_11310",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "GTM complete",
+      "GTM complete[Checkbox]",
+      "cf[11310]"
+    ]
+  },
+  "customfield_10101": {
+    "name": "Project overview key",
+    "key": "com.atlassian.atlas.jira__project-key",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10101]",
+      "Project overview key"
+    ]
+  },
+  "customfield_10585": {
+    "name": "Follow Up On",
+    "key": "customfield_10585",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10585]",
+      "Follow Up On",
+      "Follow Up On[Date]"
+    ]
+  },
+  "customfield_10102": {
+    "name": "Project overview status",
+    "key": "com.atlassian.atlas.jira__project-status",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Project overview status",
+      "cf[10102]"
+    ]
+  },
+  "customfield_10223": {
+    "name": "Type of Effort",
+    "key": "customfield_10223",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Type of Effort[Dropdown]",
+      "cf[10223]",
+      "Type of Effort"
+    ]
+  },
+  "customfield_10224": {
+    "name": "Regression?",
+    "key": "customfield_10224",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Regression?[Dropdown]",
+      "Regression?",
+      "cf[10224]"
+    ]
+  },
+  "customfield_11425": {
+    "name": "Actual Deployment",
+    "key": "customfield_11425",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Actual Deployment[Date]",
+      "cf[11425]",
+      "Actual Deployment"
+    ]
+  },
+  "customfield_10214": {
+    "name": "Association Count",
+    "key": "com.servicerocket.jira.salesforce__association-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10214]",
+      "Association Count"
+    ]
+  },
+  "customfield_10215": {
+    "name": "Associations",
+    "key": "com.servicerocket.jira.salesforce__associations-field",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Associations",
+      "cf[10215]"
+    ]
+  },
+  "customfield_11424": {
+    "name": "Scheduled Deployment",
+    "key": "customfield_11424",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11424]",
+      "Scheduled Deployment",
+      "Scheduled Deployment[Date]"
+    ]
+  },
+  "customfield_10216": {
+    "name": "Checklist Progress",
+    "key": "com.herocoders.plugins.jira.issuechecklist-free__issue-checklist-progress-field",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Checklist Progress",
+      "cf[10216]"
+    ]
+  },
+  "customfield_10217": {
+    "name": "Checklist Progress %",
+    "key": "com.herocoders.plugins.jira.issuechecklist-free__issue-checklist-progress-percent-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Checklist Progress %",
+      "cf[10217]"
+    ]
+  },
+  "customfield_11426": {
+    "name": "Operations Ticket: Resolution SLA",
+    "key": "customfield_11426",
+    "custom": true,
+    "type": "sd-servicelevelagreement",
+    "searchable": true,
+    "clauseNames": [
+      "Operations Ticket: Resolution SLA",
+      "cf[11426]"
+    ]
+  },
+  "timeestimate": {
+    "name": "Remaining Estimate",
+    "key": "timeestimate",
+    "custom": false,
+    "type": "number",
+    "searchable": false,
+    "clauseNames": [
+      "remainingEstimate",
+      "timeestimate"
+    ]
+  },
+  "customfield_10218": {
+    "name": "Checklist Template",
+    "key": "com.herocoders.plugins.jira.issuechecklist-free__issue-checklist-templates",
+    "custom": true,
+    "type": "option2",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10218]",
+      "Checklist Template"
+    ]
+  },
+  "versions": {
+    "name": "Affects versions",
+    "key": "versions",
+    "custom": false,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "affectedVersion"
+    ]
+  },
+  "customfield_10219": {
+    "name": "Checklist Text (view-only)",
+    "key": "com.herocoders.plugins.jira.issuechecklist-free__checklist-text-view-only",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10219]",
+      "Checklist Text (view-only)"
+    ]
+  },
+  "status": {
+    "name": "Status",
+    "key": "status",
+    "custom": false,
+    "type": "status",
+    "searchable": true,
+    "clauseNames": [
+      "status"
+    ]
+  },
+  "customfield_12071": {
+    "name": "Phone Number",
+    "key": "customfield_12071",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Phone Number",
+      "Phone Number[Number]",
+      "cf[12071]"
+    ]
+  },
+  "issuekey": {
+    "name": "Key",
+    "key": "issuekey",
+    "custom": false,
+    "type": "unknown",
+    "searchable": false,
+    "clauseNames": [
+      "id",
+      "issue",
+      "issuekey",
+      "key",
+      "workItem",
+      "workItemKey"
+    ]
+  },
+  "customfield_12070": {
+    "name": "Contract Agreement",
+    "key": "customfield_12070",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Contract Agreement",
+      "Contract Agreement[Short text]",
+      "cf[12070]"
+    ]
+  },
+  "customfield_12073": {
+    "name": "First name",
+    "key": "customfield_12073",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "First name[Short text]",
+      "cf[12073]",
+      "First name"
+    ]
+  },
+  "customfield_12072": {
+    "name": "Country",
+    "key": "customfield_12072",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Country[Short text]",
+      "cf[12072]",
+      "Country"
+    ]
+  },
+  "customfield_12075": {
+    "name": "Last name",
+    "key": "customfield_12075",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Last name",
+      "Last name[Short text]",
+      "cf[12075]"
+    ]
+  },
+  "customfield_12074": {
+    "name": "Middle name",
+    "key": "customfield_12074",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Middle name",
+      "Middle name[Short text]",
+      "cf[12074]"
+    ]
+  },
+  "customfield_12077": {
+    "name": "Employee ID",
+    "key": "customfield_12077",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12077]",
+      "Employee ID[Short text]",
+      "Employee ID"
+    ]
+  },
+  "customfield_12076": {
+    "name": "Date of birth",
+    "key": "customfield_12076",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Date of birth[Date]",
+      "cf[12076]",
+      "Date of birth"
+    ]
+  },
+  "customfield_12079": {
+    "name": "Personal email address",
+    "key": "customfield_12079",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Personal email address[Short text]",
+      "Personal email address",
+      "cf[12079]"
+    ]
+  },
+  "customfield_12078": {
+    "name": "Company email address",
+    "key": "customfield_12078",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Company email address[Short text]",
+      "Company email address",
+      "cf[12078]"
+    ]
+  },
+  "customfield_11421": {
+    "name": "Developer",
+    "key": "customfield_11421",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Developer[People]",
+      "cf[11421]",
+      "Developer"
+    ]
+  },
+  "customfield_11420": {
+    "name": "Delivery status",
+    "key": "customfield_11420",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11420]",
+      "Delivery status"
+    ]
+  },
+  "customfield_11423": {
+    "name": "Deployed By",
+    "key": "customfield_11423",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Deployed By[People]",
+      "cf[11423]",
+      "Deployed By"
+    ]
+  },
+  "customfield_11422": {
+    "name": "Merged By",
+    "key": "customfield_11422",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Merged By",
+      "Merged By[People]",
+      "cf[11422]"
+    ]
+  },
+  "customfield_10213": {
+    "name": "Pod",
+    "key": "customfield_10213",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Pod[Short text]",
+      "Pod",
+      "cf[10213]"
+    ]
+  },
+  "customfield_11414": {
+    "name": "Atlassian project",
+    "key": "customfield_11414",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11414]",
+      "Atlassian project"
+    ]
+  },
+  "customfield_10204": {
+    "name": "Time to done",
+    "key": "customfield_10204",
+    "custom": true,
+    "type": "sd-servicelevelagreement",
+    "searchable": true,
+    "clauseNames": [
+      "Time to done",
+      "cf[10204]"
+    ]
+  },
+  "customfield_11413": {
+    "name": "Idea archived on",
+    "key": "customfield_11413",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Idea archived on[Time stamp]",
+      "cf[11413]",
+      "Idea archived on"
+    ]
+  },
+  "customfield_11416": {
+    "name": "Insights",
+    "key": "customfield_11416",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11416]",
+      "Insights"
+    ]
+  },
+  "customfield_11415": {
+    "name": "Atlassian project status",
+    "key": "customfield_11415",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Atlassian project status",
+      "cf[11415]"
+    ]
+  },
+  "aggregatetimeestimate": {
+    "name": "Σ Remaining Estimate",
+    "key": "aggregatetimeestimate",
+    "custom": false,
+    "type": "number",
+    "searchable": false,
+    "clauseNames": []
+  },
+  "customfield_11418": {
+    "name": "Linked items",
+    "key": "customfield_11418",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11418]",
+      "Linked items"
+    ]
+  },
+  "customfield_11417": {
+    "name": "Comments",
+    "key": "customfield_11417",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11417]",
+      "Comments"
+    ]
+  },
+  "customfield_11419": {
+    "name": "Delivery progress",
+    "key": "customfield_11419",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Delivery progress",
+      "cf[11419]"
+    ]
+  },
+  "creator": {
+    "name": "Creator",
+    "key": "creator",
+    "custom": false,
+    "type": "user",
+    "searchable": true,
+    "clauseNames": [
+      "creator"
+    ]
+  },
+  "customfield_12060": {
+    "name": "Date of birth",
+    "key": "customfield_12060",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Date of birth[Date]",
+      "Date of birth",
+      "cf[12060]"
+    ]
+  },
+  "customfield_12062": {
+    "name": "Mailing address",
+    "key": "customfield_12062",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12062]",
+      "Mailing address",
+      "Mailing address[Short text]"
+    ]
+  },
+  "customfield_12061": {
+    "name": "Personal email address",
+    "key": "customfield_12061",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Personal email address[Short text]",
+      "Personal email address",
+      "cf[12061]"
+    ]
+  },
+  "customfield_12064": {
+    "name": "Region",
+    "key": "customfield_12064",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Region[Dropdown]",
+      "Region",
+      "cf[12064]"
+    ]
+  },
+  "customfield_12063": {
+    "name": "Residential status",
+    "key": "customfield_12063",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Residential status",
+      "Residential status[Dropdown]",
+      "cf[12063]"
+    ]
+  },
+  "customfield_12066": {
+    "name": "Accessibility needs",
+    "key": "customfield_12066",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12066]",
+      "Accessibility needs",
+      "Accessibility needs[Paragraph]"
+    ]
+  },
+  "customfield_12065": {
+    "name": "Department",
+    "key": "customfield_12065",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Department[Dropdown]",
+      "cf[12065]",
+      "Department"
+    ]
+  },
+  "aggregateprogress": {
+    "name": "Σ Progress",
+    "key": "aggregateprogress",
+    "custom": false,
+    "type": "progress",
+    "searchable": false,
+    "clauseNames": []
+  },
+  "customfield_11410": {
+    "name": "Version",
+    "key": "customfield_11410",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11410]",
+      "Version[Short text]",
+      "Version"
+    ]
+  },
+  "customfield_10683": {
+    "name": "Department",
+    "key": "customfield_10683",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Department[Short text]",
+      "cf[10683]",
+      "Department"
+    ]
+  },
+  "customfield_10684": {
+    "name": "Department",
+    "key": "customfield_10684",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Department[Short text]",
+      "Department",
+      "cf[10684]"
+    ]
+  },
+  "customfield_12069": {
+    "name": "Agency Name",
+    "key": "customfield_12069",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Agency Name",
+      "cf[12069]",
+      "Agency Name[Short text]"
+    ]
+  },
+  "customfield_11772": {
+    "name": "Shirt sizing",
+    "key": "customfield_11772",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11772]",
+      "Shirt sizing[Dropdown]",
+      "Shirt sizing"
+    ]
+  },
+  "customfield_11412": {
+    "name": "Idea archived by",
+    "key": "customfield_11412",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Idea archived by",
+      "cf[11412]",
+      "Idea archived by[People]"
+    ]
+  },
+  "customfield_11411": {
+    "name": "Idea archived",
+    "key": "customfield_11411",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Idea archived[Dropdown]",
+      "cf[11411]",
+      "Idea archived"
+    ]
+  },
+  "customfield_11409": {
+    "name": "TS Source",
+    "key": "customfield_11409",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "TS Source[Dropdown]",
+      "cf[11409]",
+      "TS Source"
+    ]
+  },
+  "customfield_11080": {
+    "name": "NPI",
+    "key": "customfield_11080",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11080]",
+      "NPI",
+      "NPI[Number]"
+    ]
+  },
+  "customfield_12170": {
+    "name": "BGC Status",
+    "key": "customfield_12170",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "BGC Status[Dropdown]",
+      "BGC Status",
+      "cf[12170]"
+    ]
+  },
+  "customfield_11081": {
+    "name": "Client",
+    "key": "customfield_11081",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Client[Checkboxes]",
+      "cf[11081]",
+      "Client"
+    ]
+  },
+  "customfield_12051": {
+    "name": "Company email address",
+    "key": "customfield_12051",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12051]",
+      "Company email address[Short text]",
+      "Company email address"
+    ]
+  },
+  "customfield_11082": {
+    "name": "Client",
+    "key": "customfield_11082",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Client",
+      "Client[Dropdown]",
+      "cf[11082]"
+    ]
+  },
+  "customfield_12171": {
+    "name": "BGC Doc URL",
+    "key": "customfield_12171",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12171]",
+      "BGC Doc URL[URL Field]",
+      "BGC Doc URL"
+    ]
+  },
+  "customfield_11083": {
+    "name": "Section of the platform",
+    "key": "customfield_11083",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Section of the platform[Dropdown]",
+      "cf[11083]",
+      "Section of the platform"
+    ]
+  },
+  "customfield_12050": {
+    "name": "Last name",
+    "key": "customfield_12050",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12050]",
+      "Last name",
+      "Last name[Short text]"
+    ]
+  },
+  "timespent": {
+    "name": "Time Spent",
+    "key": "timespent",
+    "custom": false,
+    "type": "number",
+    "searchable": false,
+    "clauseNames": [
+      "timespent"
+    ]
+  },
+  "customfield_11084": {
+    "name": "Type of request",
+    "key": "customfield_11084",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Type of request[Dropdown]",
+      "cf[11084]",
+      "Type of request"
+    ]
+  },
+  "customfield_12053": {
+    "name": "End date",
+    "key": "customfield_12053",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12053]",
+      "End date",
+      "End date[Time stamp]"
+    ]
+  },
+  "customfield_12052": {
+    "name": "Region",
+    "key": "customfield_12052",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Region[Short text]",
+      "Region",
+      "cf[12052]"
+    ]
+  },
+  "customfield_11085": {
+    "name": "Credentialing Cycle",
+    "key": "customfield_11085",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11085]",
+      "Credentialing Cycle[Dropdown]",
+      "Credentialing Cycle"
+    ]
+  },
+  "customfield_12055": {
+    "name": "Start date",
+    "key": "customfield_12055",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12055]",
+      "Start date[Time stamp]",
+      "Start date"
+    ]
+  },
+  "customfield_12054": {
+    "name": "Approvers",
+    "key": "customfield_12054",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12054]",
+      "Approvers[People]",
+      "Approvers"
+    ]
+  },
+  "customfield_12057": {
+    "name": "Date",
+    "key": "customfield_12057",
+    "custom": true,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "Date[Time stamp]",
+      "cf[12057]",
+      "Date"
+    ]
+  },
+  "customfield_12056": {
+    "name": "Team",
+    "key": "customfield_12056",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Team[Short text]",
+      "Team",
+      "cf[12056]"
+    ]
+  },
+  "aggregatetimespent": {
+    "name": "Σ Time Spent",
+    "key": "aggregatetimespent",
+    "custom": false,
+    "type": "number",
+    "searchable": false,
+    "clauseNames": []
+  },
+  "customfield_12059": {
+    "name": "Middle name",
+    "key": "customfield_12059",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12059]",
+      "Middle name",
+      "Middle name[Short text]"
+    ]
+  },
+  "customfield_10551": {
+    "name": "Environment",
+    "key": "customfield_10551",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Environment[Dropdown]",
+      "cf[10551]"
+    ]
+  },
+  "customfield_11640": {
+    "name": "Date",
+    "key": "customfield_11640",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Date[Date]",
+      "cf[11640]",
+      "Date"
+    ]
+  },
+  "customfield_12058": {
+    "name": "Leave type",
+    "key": "customfield_12058",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12058]",
+      "Leave type",
+      "Leave type[Dropdown]"
+    ]
+  },
+  "customfield_11643": {
+    "name": "Big Idea?",
+    "key": "customfield_11643",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Big Idea?",
+      "Big Idea?[Checkbox]",
+      "cf[11643]"
+    ]
+  },
+  "workratio": {
+    "name": "Work Ratio",
+    "key": "workratio",
+    "custom": false,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "workratio"
+    ]
+  },
+  "issuerestriction": {
+    "name": "Restrict to",
+    "key": "issuerestriction",
+    "custom": false,
+    "type": "issuerestriction",
+    "searchable": true,
+    "clauseNames": []
+  },
+  "thumbnail": {
+    "name": "Images",
+    "key": "thumbnail",
+    "custom": false,
+    "type": "unknown",
+    "searchable": false,
+    "clauseNames": []
+  },
+  "customfield_12040": {
+    "name": "Resignation date",
+    "key": "customfield_12040",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12040]",
+      "Resignation date[Date]",
+      "Resignation date"
+    ]
+  },
+  "created": {
+    "name": "Created",
+    "key": "created",
+    "custom": false,
+    "type": "datetime",
+    "searchable": true,
+    "clauseNames": [
+      "created",
+      "createdDate"
+    ]
+  },
+  "customfield_12042": {
+    "name": "Case type",
+    "key": "customfield_12042",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "Case type",
+      "Case type[Dropdown]",
+      "cf[12042]"
+    ]
+  },
+  "customfield_12041": {
+    "name": "Last working day",
+    "key": "customfield_12041",
+    "custom": true,
+    "type": "date",
+    "searchable": true,
+    "clauseNames": [
+      "Last working day[Date]",
+      "Last working day",
+      "cf[12041]"
+    ]
+  },
+  "customfield_12044": {
+    "name": "Reason",
+    "key": "customfield_12044",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Reason[Paragraph]",
+      "cf[12044]",
+      "Reason"
+    ]
+  },
+  "customfield_12043": {
+    "name": "User picker",
+    "key": "customfield_12043",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "User picker",
+      "User picker[People]",
+      "cf[12043]"
+    ]
+  },
+  "customfield_12046": {
+    "name": "Title",
+    "key": "customfield_12046",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Title",
+      "Title[Short text]",
+      "cf[12046]"
+    ]
+  },
+  "customfield_12045": {
+    "name": "Employee ID",
+    "key": "customfield_12045",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Employee ID[Short text]",
+      "Employee ID",
+      "cf[12045]"
+    ]
+  },
+  "customfield_12048": {
+    "name": "City",
+    "key": "customfield_12048",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12048]",
+      "City[Short text]",
+      "City"
+    ]
+  },
+  "customfield_11079": {
+    "name": "Reason for Deferral",
+    "key": "customfield_11079",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Reason for Deferral[Checkboxes]",
+      "cf[11079]",
+      "Reason for Deferral"
+    ]
+  },
+  "customfield_11872": {
+    "name": "Feature Documentation",
+    "key": "customfield_11872",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Feature Documentation",
+      "cf[11872]",
+      "Feature Documentation[URL Field]"
+    ]
+  },
+  "customfield_12169": {
+    "name": "PII Handling",
+    "key": "customfield_12169",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12169]",
+      "PII Handling[Dropdown]",
+      "PII Handling"
+    ]
+  },
+  "customfield_12047": {
+    "name": "Department",
+    "key": "customfield_12047",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Department[Short text]",
+      "cf[12047]",
+      "Department"
+    ]
+  },
+  "customfield_12168": {
+    "name": "Employment Contract Type",
+    "key": "customfield_12168",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12168]",
+      "Employment Contract Type[Dropdown]",
+      "Employment Contract Type"
+    ]
+  },
+  "customfield_11874": {
+    "name": "PDM Support Category",
+    "key": "customfield_11874",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11874]",
+      "PDM Support Category",
+      "PDM Support Category[Dropdown]"
+    ]
+  },
+  "customfield_11873": {
+    "name": "Configuration Category",
+    "key": "customfield_11873",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11873]",
+      "Configuration Category",
+      "Configuration Category[Dropdown]"
+    ]
+  },
+  "customfield_12049": {
+    "name": "First name",
+    "key": "customfield_12049",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "First name[Short text]",
+      "First name",
+      "cf[12049]"
+    ]
+  },
+  "customfield_10419": {
+    "name": "Changelog description",
+    "key": "so.released.app__public-description",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10419]",
+      "Changelog description"
+    ]
+  },
+  "customfield_11060": {
+    "name": "Stories of Epic in Done status category count",
+    "key": "jql-extensions__done-story-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11060]",
+      "Stories of Epic in Done status category count"
+    ]
+  },
+  "customfield_11061": {
+    "name": "Bugs of Epic in To Do status category count",
+    "key": "jql-extensions__todo-bug-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11061]",
+      "Bugs of Epic in To Do status category count"
+    ]
+  },
+  "customfield_11062": {
+    "name": "Bugs of Epic in In Progress status category count",
+    "key": "jql-extensions__in-progress-bug-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Bugs of Epic in In Progress status category count",
+      "cf[11062]"
+    ]
+  },
+  "customfield_11063": {
+    "name": "Bugs of Epic in Done status category count",
+    "key": "jql-extensions__done-bug-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11063]",
+      "Bugs of Epic in Done status category count"
+    ]
+  },
+  "customfield_10097": {
+    "name": "Participant",
+    "key": "customfield_10097",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10097]",
+      "Participant",
+      "Participant[People]"
+    ]
+  },
+  "customfield_10099": {
+    "name": "Participants",
+    "key": "customfield_10099",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Participants[People]",
+      "cf[10099]",
+      "Participants"
+    ]
+  },
+  "customfield_12037": {
+    "name": "Employment type",
+    "key": "customfield_12037",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12037]",
+      "Employment type",
+      "Employment type[Dropdown]"
+    ]
+  },
+  "customfield_10650": {
+    "name": "Time to Resolution",
+    "key": "customfield_10650",
+    "custom": true,
+    "type": "sd-servicelevelagreement",
+    "searchable": true,
+    "clauseNames": [
+      "Time to Resolution",
+      "cf[10650]"
+    ]
+  },
+  "customfield_12036": {
+    "name": "Employee location",
+    "key": "customfield_12036",
+    "custom": true,
+    "type": "option",
+    "searchable": true,
+    "clauseNames": [
+      "cf[12036]",
+      "Employee location[Dropdown]",
+      "Employee location"
+    ]
+  },
+  "customfield_12039": {
+    "name": "Manager",
+    "key": "customfield_12039",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "Manager",
+      "cf[12039]",
+      "Manager[People]"
+    ]
+  },
+  "customfield_12038": {
+    "name": "Job title",
+    "key": "customfield_12038",
+    "custom": true,
+    "type": "string",
+    "searchable": true,
+    "clauseNames": [
+      "Job title",
+      "Job title[Short text]",
+      "cf[12038]"
+    ]
+  },
+  "security": {
+    "name": "Security Level",
+    "key": "security",
+    "custom": false,
+    "type": "securitylevel",
+    "searchable": true,
+    "clauseNames": [
+      "level"
+    ]
+  },
+  "attachment": {
+    "name": "Attachment",
+    "key": "attachment",
+    "custom": false,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "attachments"
+    ]
+  },
+  "customfield_11050": {
+    "name": "Issue link count",
+    "key": "jql-extensions__issue-links-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Issue link count",
+      "cf[11050]"
+    ]
+  },
+  "customfield_11051": {
+    "name": "Updated by users count",
+    "key": "jql-extensions__updated-by-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11051]",
+      "Updated by users count"
+    ]
+  },
+  "customfield_11052": {
+    "name": "Children of Epic count",
+    "key": "jql-extensions__all-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11052]",
+      "Children of Epic count"
+    ]
+  },
+  "customfield_11053": {
+    "name": "Bugs of Epic count",
+    "key": "jql-extensions__bug-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Bugs of Epic count",
+      "cf[11053]"
+    ]
+  },
+  "customfield_11054": {
+    "name": "Stories of Epic count",
+    "key": "jql-extensions__story-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11054]",
+      "Stories of Epic count"
+    ]
+  },
+  "customfield_11055": {
+    "name": "Children of Epic in To Do status category count",
+    "key": "jql-extensions__todo-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11055]",
+      "Children of Epic in To Do status category count"
+    ]
+  },
+  "customfield_11056": {
+    "name": "Children of Epic in In Progress status category count",
+    "key": "jql-extensions__in-progress-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11056]",
+      "Children of Epic in In Progress status category count"
+    ]
+  },
+  "customfield_11057": {
+    "name": "Children of Epic in Done status category count",
+    "key": "jql-extensions__done-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Children of Epic in Done status category count",
+      "cf[11057]"
+    ]
+  },
+  "customfield_11178": {
+    "name": "DO Department ",
+    "key": "customfield_11178",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "DO Department [Labels]",
+      "DO Department ",
+      "cf[11178]"
+    ]
+  },
+  "customfield_11058": {
+    "name": "Stories of Epic in To Do status category count",
+    "key": "jql-extensions__todo-story-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "Stories of Epic in To Do status category count",
+      "cf[11058]"
+    ]
+  },
+  "customfield_11059": {
+    "name": "Stories of Epic in In Progress status category count",
+    "key": "jql-extensions__in-progress-story-epic-count-field",
+    "custom": true,
+    "type": "number",
+    "searchable": true,
+    "clauseNames": [
+      "cf[11059]",
+      "Stories of Epic in In Progress status category count"
+    ]
+  },
+  "customfield_10518": {
+    "name": "Sub-customer",
+    "key": "customfield_10518",
+    "custom": true,
+    "type": "array",
+    "searchable": true,
+    "clauseNames": [
+      "cf[10518]",
+      "Sub-customer[Select List (multiple choices)]",
+      "Sub-customer"
+    ]
+  }
+}

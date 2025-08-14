@@ -1,0 +1,18 @@
+runtime: nodejs18
+env: standard
+
+service: jira-automation
+
+env_variables:
+  NODE_ENV: production
+  PORT: 8080
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 1
+  target_cpu_utilization: 0.6
+
+handlers:
+- url: /.*
+  script: auto
+  secure: always

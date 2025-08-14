@@ -1,0 +1,53 @@
+{
+  "name": "jira-customer-automation",
+  "description": "Automated Jira customer field management - runs weekdays only",
+  "repository": "https://github.com/yourusername/jira-automation",
+  "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-sample@main/public/node.png",
+  "keywords": ["node", "jira", "automation", "typescript", "customer-management"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-scheduler:standard"
+    }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Node environment",
+      "value": "production"
+    },
+    "JIRA_URL": {
+      "description": "Jira instance URL",
+      "required": true
+    },
+    "JIRA_EMAIL": {
+      "description": "Jira email/username",
+      "required": true
+    },
+    "JIRA_API_TOKEN": {
+      "description": "Jira API token",
+      "required": true
+    },
+    "PROJECT_KEY": {
+      "description": "Jira project key",
+      "value": "TS"
+    },
+    "CUSTOMER_FIELD_ID": {
+      "description": "Customer field ID",
+      "value": "customfield_10485"
+    }
+  },
+  "scripts": {
+    "postdeploy": "echo 'Deployment completed. Configure Heroku Scheduler to run the automation.'"
+  }
+}

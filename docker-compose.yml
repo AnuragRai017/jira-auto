@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  jira-customer-automation:
+    build: .
+    container_name: jira-customer-automation
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - LOG_LEVEL=info
+    env_file:
+      - .env
+    volumes:
+      # Mount volume for persistent state
+      - ./customer-automation-state.json:/app/customer-automation-state.json
+      # Mount volume for logs
+      - ./logs:/app/logs
+    command: ["node", "dist/customer-field-automation.js", "continuous", "1440", "60000"]
+    healthcheck:
+      test: ["CMD", "node", "-e", "console.log('Health check passed')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Optional: Add a one-time job for backup scanning
+  jira-backup-scanner:
+    build: .
+    container_name: jira-backup-scanner
+    environment:
+      - NODE_ENV=production
+      - LOG_LEVEL=info
+    env_file:
+      - .env
+    volumes:
+      - ./customer-automation-state.json:/app/customer-automation-state.json
+      - ./logs:/app/logs
+    command: ["node", "dist/customer-field-automation.js", "backup-scan"]
+    restart: "no"
+    profiles:
+      - backup

@@ -1,0 +1,23 @@
+name: jira-automation
+region: oregon
+
+services:
+  - type: web
+    name: jira-customer-automation
+    env: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: node dist/customer-field-automation.js continuous 480 300000
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    
+  # Cron job to keep service alive during business hours (Mon-Fri)
+  - type: cron
+    name: keep-alive-weekdays
+    schedule: "*/14 * * * 1-5"  # Every 14 minutes, Monday-Friday
+    buildCommand: npm ci
+    startCommand: curl https://jira-customer-automation.onrender.com/health
